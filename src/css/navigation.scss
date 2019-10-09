@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+#nav-bar-holder {
+    width:100%;
+    left:0;
+    right:0;
+    top:0;
+    position: fixed;
+    background-color: white;
+    z-index:10;
+}
+
+#site-title {
+    margin-top:12%;
+    font-size: 1.4em;
+}
+
+#list-styles {
+    margin-top:2%;
+    list-style-type:none;
+}
+
+#nav-list-left {
+    font-family: 'Lora', serif;
+    margin-left: 2%;
+    width:40%;
+    display:inline-block;
+}
+
+#nav-list-right {
+    width:50%;
+    display:inline-block
+}
+
+.nav-link-styles {
+    font-family: 'Lora', serif;
+    padding:2%;
+    text-decoration: none;
+    float: left;
+    color:black;
+}
+
+.nav-link-styles:hover {
+    background-color:gray;
+    background-size: 100%;
+}
+
+.active {
+    color:black;
+    font-weight:bold;
+}
+
+#nav-link-style-title {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+html {
+    background: #F5F5F5;
+}
+
+#main-body-content {
+    flex-grow: 1;
+}
+
+#layout-container {
+    margin: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#left-side-content {
+    float: left;
+    width:65vw;
+}
+
+#aside-bio {
+    margin-top: 5%;
+    float: right;
+    background-color:white;
+    width:18vw;
+    border-radius: 25px;
+
+}
+
+#bio-container {
+    padding: 6%;
+    text-align: right
+}
+
+#footer-styles {
+    background-color:white;
+    left: 0;
+    right:0;
+    bottom:0;
+    width:100%;
+    min-height: 10vh;
+    padding:2%;
+    box-sizing: border-box;
+}
+
+
+
+#home-text-area {
+    width:50%;
+    float:right;
+    margin-right:5%;
+}
+
+#home-container {
+    width:100%;
+    margin-right:5%;
+    margin-top:8%;
+}
+
+#home-page-title {
+    font-family: 'Lora', serif;
+}
+
+#left-home-container {
+    width:60%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#home-inside-container {
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+#right-home-container {
+    width:35%;
+    min-height:45vh;
+    margin-left:4%;
+    border-radius:25px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Lora', serif;
+    background-color: black;
+    color:white;
+}
+
+#featured-blog-section {
+    width:100%;
+    margin-top:5%;
+    padding:2%;
+    border-radius: 25px;
+    background: #B8D8D8;
+}
+
+#featured-blog-title {
+    text-align:center;
+}
+
+.blog-posts-home-page {
+    width:90%;
+    margin-left:5%;
+}
+
+.blog-posts-home-page h3 {
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+.blog-posts-home-page a {
+    color: black;
+    text-decoration: none;
+}
+
+.blog-posts-home-page a:hover {
+    color: black
+}
+
+.blog-posts-home-page a:visited {
+    color: black
+} 
+
+.social-icon {
+    float:right;
+    margin-right:3%;
+    font-size: 2rem;
+}
+
+#one-social-icon {
+    color: #B8D8D8;
+}
+
+#two-social-icon {
+    color: #F4DBD8;
+}
+
+#three-social-icon {
+    color: #D6E3D7;
+}
+
+#four-social-icon {
+    color: #9F8F97;
+}
+
+#social-media-container {
+    text-align: right;
+    margin-bottom:5%;
+}

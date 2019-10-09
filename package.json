@@ -13,11 +13,29 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "emailjs-com": "^2.4.0",
+    "emotion": "^10.0.17",
     "gatsby": "^2.15.28",
+    "gatsby-image": "^2.2.23",
+    "gatsby-plugin-sass": "^2.1.17",
+    "gatsby-plugin-sharp": "^2.2.27",
+    "gatsby-remark-images": "^3.1.25",
+    "gatsby-remark-relative-images": "^0.2.3",
+    "gatsby-source-filesystem": "^2.1.28",
+    "gatsby-transformer-remark": "^2.6.26",
+    "gatsby-transformer-sharp": "^2.2.19",
+    "node-sass": "^4.12.0",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-custom-share": "^0.4.8",
+    "react-dom": "^16.9.0",
+    "react-icons": "^3.7.0",
+    "react-typist": "^2.0.5"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "prettier": "^1.18.2"
   },
   "repository": {
