@@ -14,8 +14,10 @@ const Polariods = () => {
               name
               childImageSharp {
                 fluid(maxWidth: 900) {
-                  
-                    ...GatsbyImageSharpFluid_noBase64
+                  aspectRatio
+                  src
+                  srcSet
+                  sizes
                 }
               }
             }
