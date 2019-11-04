@@ -6,7 +6,7 @@ import Layout from '../components/layout';
 import '../css/blog.scss';
 
 
-const Programming = () => {
+const Videos = () => {
 
     const data = useStaticQuery(graphql`
         query {
@@ -42,19 +42,23 @@ const Programming = () => {
                         
                 <ul>
                 {data.allMarkdownRemark.nodes.map((node) => {
-                    return (
-                        <div className = "featured-blog-section ">
-                            <li>
-                                <Image fluid = {node.frontmatter.image.childImageSharp.fluid}/>
-                                <h3><Link to = {`/blog/${node.fields.slug}`}>{node.frontmatter.title}</Link></h3>
-                                <p className="blog-over-date">{node.frontmatter.date}</p>
-                                <p>{node.excerpt}</p>
 
-                                <p style = {{textAlign:"right", textDecoration:"underline"}}><Link to = {`/blog/${node.fields.slug}`}>Read More...</Link></p>
-                            </li>
-                        </div>
-                            )
-                        })}
+                    let curTag = node.frontmatter.tags[0];
+                    if(curTag == 'videos') {
+                        return (
+                            <div className = "featured-blog-section ">
+                                <li>
+                                    <Image fluid = {node.frontmatter.image.childImageSharp.fluid}/>
+                                    <h3><Link to = {`/blog/${node.fields.slug}`}>{node.frontmatter.title}</Link></h3>
+                                    <p className="blog-over-date">{node.frontmatter.date}</p>
+                                    <p>{node.excerpt}</p>
+    
+                                    <p style = {{textAlign:"right", textDecoration:"underline"}}><Link to = {`/blog/${node.fields.slug}`}>Read More...</Link></p>
+                                </li>
+                            </div>
+                                )
+                    }
+                })}
                 </ul>
 
             </div>
@@ -62,4 +66,4 @@ const Programming = () => {
     );
 }
 
-export default Programming;
+export default Videos;

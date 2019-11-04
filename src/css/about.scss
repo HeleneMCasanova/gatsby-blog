@@ -1,0 +1,56 @@
+#about-me-container {
+
+}
+
+#home-text-area {
+    width:50%;
+    float:right;
+    margin-right:5%;
+}
+
+#blog-container {
+    width:100%;
+    margin-right:5%;
+    margin-top:8%;
+}
+
+#blog-page-title {
+    font-family: 'Lora', serif;
+}
+
+#left-home-container {
+    width:80%;
+    margin-left:10%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1%;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+    border-top: 1px white solid;
+}
+
+#blog-inside-container {
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+#right-home-container {
+    width:80%;
+    min-height:45vh;
+    margin-left:11%;
+    margin-bottom:4%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Lora', serif;
+    background-color: black;
+    color:white;
+}
+
+
+.picture-container {
+    display: inline-block;
+    vertical-align: top;
+    width:30%;
+    margin-right:3%;
+}

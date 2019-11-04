@@ -1,21 +1,40 @@
 #main-contact-container {
     margin-top:8%;
     padding:2%;
-    border-radius:25px;
-    background-color: #B8D8D8;
+   
 }
 
 .form-sides {
     display: inline-block;
     vertical-align: top;
+    border-radius:25px;
     width:48%;
 }
+
 
 #contact-submit-button {
     text-align: center;
     width:20%;
 }
 
+#contact-form {
+    padding: 2%;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
 input {
     border-radius:5px;
+}
+
+@media (max-width: 900px) {
+    #main-contact-container {
+        padding:4%;
+        margin-top:24vh;
+    }
+
+    #contact-submit-button {
+        margin-left:5%;
+    }
 }

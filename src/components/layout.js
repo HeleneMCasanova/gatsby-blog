@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from './header';
+import Logo from './logo';
 import Footer from './footer';
 import SidePanel from './sidepanel';
 
@@ -11,6 +12,7 @@ const Layout = (props) => {
     <div> 
         <div id = "layout-container">
             <Header />
+            <Logo />
             <div id = "main-body-content">
                 <div id = "left-side-content">
                     {props.children}

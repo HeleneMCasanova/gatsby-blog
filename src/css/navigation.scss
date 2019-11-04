@@ -5,9 +5,11 @@
     left:0;
     right:0;
     top:0;
+    padding:1%;
     position: fixed;
-    background-color: white;
+    background-color: #201B1B;
     z-index:10;
+    border-bottom:1px solid white;
 }
 
 #site-title {
@@ -20,37 +22,50 @@
     list-style-type:none;
 }
 
-#nav-list-left {
-    font-family: 'Lora', serif;
-    margin-left: 2%;
-    width:40%;
+#nav-list {
+    min-width:40%;
     display:inline-block;
-}
-
-#nav-list-right {
-    width:50%;
-    display:inline-block
 }
 
 .nav-link-styles {
     font-family: 'Lora', serif;
-    padding:2%;
     text-decoration: none;
-    float: left;
-    color:black;
+    float:left;
+    margin-right:2%;
+    color:white;
 }
 
 .nav-link-styles:hover {
-    background-color:gray;
-    background-size: 100%;
+    font-weight:bold;
 }
 
 .active {
-    color:black;
+    color:white;
     font-weight:bold;
 }
 
 #nav-link-style-title {
     text-decoration: none;
     color: black;
+}
+
+#logo-container {
+    text-align:center;
+}
+
+#top-logo {
+    font-family: 'Lora', serif;
+
+}
+
+@media (max-width: 900px) {
+    #nav-list-left {
+        width:90%;
+        text-align: center;
+    }
+    #nav-list-right {
+        width:100%;
+        font-size:.7em;
+        text-align: center;
+    }
 }

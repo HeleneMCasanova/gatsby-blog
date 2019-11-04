@@ -10,6 +10,7 @@ module.exports = {
     author: 'Helene Casanova'
   },
   plugins: [
+    `gatsby-remark-prismjs`,
     'gatsby-plugin-sass',
     {
       resolve: `gatsby-source-filesystem`,

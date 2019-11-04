@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer>
             <div id = "footer-styles">
-                <p style = {{float: "right"}}>© 2019, Helene Casanova</p>
+                <p>© 2019, Helene Casanova</p>
             </div>
         </footer>
     )
